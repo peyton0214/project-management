@@ -16,3 +16,9 @@ git commit -m "Add initial README.md"
 # Push the changes
 git push origin main
 # project-management
+
+# Commands to create and switch to a new branch called activity1:
+git checkout -b activity1
+
+# Verify that you're on the new branch
+git branch
