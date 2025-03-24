@@ -1,0 +1,10 @@
+C0301: Line too long
+Justification: Lines of code should not exceed a certain length. This makes the code more readable and maintainable, especially when viewing it in editors with smaller widths or when reviewing the code.
+E1101: Module 'X' has no 'Y' member
+Justification: This check ensures that you are not trying to access an attribute or method that does not exist in the given module or class. It helps catch typos or errors where methods might not be implemented.
+W0401: Wildcard import
+Justification: Wildcard imports (e.g., from module import *) can lead to namespace pollution and make it difficult to identify where certain names come from. It’s better to explicitly import only the names you need.
+R0201: Method could be a function
+Justification: This check warns when a method doesn’t use its self argument and could be converted to a function. This can simplify the code, making it more readable and maintainable.
+C0111: Missing docstring
+Justification: Docstrings are important for explaining the purpose of a module, class, or function. This check helps ensure that your code is well-documented, making it easier for others to understand and contribute to.

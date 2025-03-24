@@ -9,6 +9,7 @@ setup:
 	@echo "Setting up virtual environment..."
 	python3 -m venv $(VENV_DIR)
 	source $(VENV_DIR)/bin/activate && pip install -r requirements.txt
+	ln -s ../../scripts/run_pylint.py .git/hooks/post-commit
 	@echo "Virtual environment setup complete."
 
 # Run the Flask app
